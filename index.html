@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eye-Of-Tiger</title>
+
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      [class$="er"],
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      body {
+        height: 100vh;
+
+        background: #0b2429;
+      }
+
+      .outer {
+        width: 200px;
+        height: 200px;
+        background: #998235;
+
+        border-radius: 0px 50% 0px 50%;
+        transform: rotate(-45deg);
+      }
+
+      .inner,
+      .eye-lid {
+        background: #0b2429;
+        border-radius: 50%;
+      }
+
+      .inner {
+        width: 180px;
+        height: 180px;
+      }
+
+      .eye-lid {
+        width: 140px;
+        height: 140px;
+
+        border: #f3ac3c 45px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner">
+        <div class="eye-lid"></div>
+      </div>
+    </div>
+  </body>
+</html>
